@@ -1,0 +1,116 @@
+/*Universal styling*/
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+  }
+  
+
+body{
+    width:100vw;
+    height:100vh;
+    background-color: #FFFAEF;
+}
+
+ul { 
+    margin: 0; 
+    padding: 0; 
+} 
+
+
+
+/* Navbar Styling */
+
+header{
+    min-height: 50px;
+    width: 100%;
+    height:10%;
+    background-color: #FFF6E3;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header a{
+    display:flex;
+}
+
+.left-nav-side{
+    /* align-items: center;
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 6%; */
+    align-items: center;
+    margin-left: 5%;
+    display: flex;
+    margin: 2%;
+    padding-left:4%;
+
+}
+
+#logo-title{
+    display:inline-block;
+    font-family: Baskerville;
+    font-weight:400;
+    font-size: 20px;
+    color: #B76F14;
+    padding-left:20px;
+    padding-top:1px;
+  
+}
+
+#logo-image{
+    display:inline-block;
+    height: 1.5rem;
+}
+
+.right-nav-side{
+    margin-right: 5%;
+    display: flex;
+    font-family: Open Sans;
+    font-weight: 800;
+    color: #FF931E;
+
+
+}
+
+.right-nav-side ul {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    list-style: none;
+  }
+
+.right-nav-side ul li {
+    margin-right: 25px;
+  }
+
+
+#cart-number{
+    padding-left:1px;
+    margin: 0 auto;
+    position: relative;
+    left: -10px;
+}
+
+
+
+#button{
+    background: #FF931E;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius:84px;
+    font-family: Open Sans;
+
+
+      
+}
