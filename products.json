@@ -1,0 +1,39 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "Blackerry Bomb",
+          "price": 3.00,
+          "image": { "fields": { "file": { "url": "./images/blackberry-roll.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "Walnut Wow",
+          "price": 5.00,
+          "image": { "fields": { "file": { "url": "./images/cinnamon-roll1.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "Cinnabon Cool",
+          "price": 4.50,
+          "image": { "fields": { "file": { "url": "./images/cinnabon-roll.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "Deluxe Damn",
+          "price": 2.50,
+          "image": { "fields": { "file": { "url": "./images/deluxe-damn.png" } } }
+        }
+      }
+      
+      
+    ]
+  }
+  

@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../../Javascript/setup-files-js-comfy-house"
+		},
+		{
+			"path": "../../homework_5"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "homework_6"
+	}
+}

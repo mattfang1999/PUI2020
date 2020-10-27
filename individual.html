@@ -1,0 +1,138 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Bun Bun Bake Shop</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="/font-awesome/js/all.js"></script>
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <nav class='navbar'>
+    <div class='navbar-center'>
+      <span class="nav-icon">
+        <i class='fas fa-bars'></i>
+      </span>
+      <a href="index.html">
+        <div class='center-logo'>
+          <img src="./images/cinnamon-roll.svg" alt="store logo">
+          <p>Bun Bun Bake Shop</p>
+        </div>
+      </a>
+
+      <div class="cart-btn">
+        <span class="nav-icon">
+          <i class='fas fa-cart-plus'></i>
+        </span>
+        <div class="cart-items">0</div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- end of navbar -->
+
+  <!-- beginning of single product display -->
+
+
+
+ <!-- products -->
+  <section class='single-product'>
+    <div class='section-title'>
+      <h2>Blackberry Bomb</h2>
+    </div>
+    <div class='indi-img-container'>
+        <img src="/images/blackberry-roll.png" alt="">
+        <div class='roll-container'>
+            <h3 class='roll-header'>Choose Your Rolls</h3>
+            <div class='button-container'>
+                <button class='roll-button'>1 roll</button>
+                <button class='roll-button'>3 rolls</button>
+                <button class='roll-button'>6 rolls</button>
+                <button class='roll-button'>12 rolls</button>
+            </div>
+        </div>
+
+        <div class='glaze-container'>
+            <h3 class='glaze-header'> Glaze </h3>
+            <div class='custom-select'>
+                <select>
+                    <option value="0">Select glaze:</option>
+                    <option value="1">None</option>
+                    <option value="2">Sugar-milk</option>
+                    <option value="3">Chocolate-milk</option>
+                    <option value="4">Double Chocolate</option>
+                  </select>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="product-footer">
+        <h3>Estimated Cost: $ <span class='item-total'>0</span></h3>
+        <button class='bag-btn-2' data-id="1">
+            <i class='fas fa-shopping-cart'></i>
+            add to cart
+        </button> 
+    </div> -->
+
+  </section>
+
+
+
+
+  <!-- end of products -->
+
+
+
+  
+
+
+    <!-- cart -->
+    <div class="cart-overlay">
+        <div class='cart'>
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>your cart</h2>
+            *Note: Rolls are sold in bundles of 3. 
+
+            <div class='cart-content'>
+            <!-- cart item -->
+              
+          </div>
+            <!-- end of cart-item -->
+          <div class="cart-footer">
+              <h3>Your total: $ <span class='cart-total'>0</span></h3>
+              <button class='clear-cart banner-btn'>clear cart</button>
+  
+          </div>
+  
+  
+  
+            
+  
+        </div>
+  
+    </div>
+  
+    <!-- end of cart -->
+  
+
+
+
+
+    <script src="js/app.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/individual.js"></script>
+  
+</body>
+
+</html>
