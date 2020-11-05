@@ -281,7 +281,9 @@ class UI {
         //clear all the IDs
         let cartItems = cart.map(item => item.id);
         cartItems.forEach(id => this.removeItem(id))
+        console.log(cartContent);
         while(cartContent.children.length > 0){
+            console.log(cartContent.children[0])
             cartContent.removeChild(cartContent.children[0])
         }
         this.hideCart();
@@ -298,6 +300,8 @@ class UI {
         button.disabled = false;
         button.innerHTML = `<i class="fas fa-shopping-cart"></i>add to cart`
         button.style.background = '#FFFAEF';
+
+        
         
 
 
