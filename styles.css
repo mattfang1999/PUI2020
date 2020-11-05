@@ -376,7 +376,7 @@ a {
     font-weight: normal;
     letter-spacing: 0.03em;
     font-size:2em;
-    color: #946E29;v
+    color: #946E29;
 }
 
 .bag-btn-2 {
@@ -403,6 +403,21 @@ a {
 
 
     /* ---------------End of Products ---------------- */
+
+
+  .similar-products{
+    margin: 0 auto;
+    width: 20%;
+    height:30%;
+    text-align:center;
+  }
+
+  .similar-products img{
+    width: 300px;
+    height:300px;
+  }
+
+
 
 
 
